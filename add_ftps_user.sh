@@ -1,5 +1,11 @@
 #!/bin/bash
 #
+#  make sure vsftpd runs with the following user:
+#
+#  nopriv_user=mescedia
+#  guest_username=mescedia
+#
+
 if [ $# -ne 2 ]
   then
     echo "invalid arguments - usage: $0 [UserName] [Password]"
